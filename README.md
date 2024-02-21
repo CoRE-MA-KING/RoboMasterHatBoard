@@ -1,16 +1,12 @@
 # RoboMasterHatBoard
 ロボマス開発ボード用ハットです。  
-CoREに出場するロボットに利用しているメインボードとして[RoboMaster 開発ボードタイプA](https://store.dji.com/jp/product/rm-development-board-type-a?vid=42041)を利用しているので、このボードから2024年大会用に必要なピンをコネクタにまとめるための基板。
+CoREに出場するロボットに利用しているメインボードとして[RoboMaster 開発ボードタイプA](https://store.dji.com/jp/product/rm-development-board-type-a?vid=42041)を利用しているので、このボードから2024年大会用に必要なピンをコネクタにまとめるための基板です。
 
 ![](./docs/RoboMasterHatBoard.png)
-
+![](./docs/RobomasDevBoard_with_hat.jpg)
 
 # 機能
 ロボマス開発ボードにはピンヘッダからいくつかのピンが出ているので、そこから今回のロボットで利用するピンを取り出します。
-
-[回路図](https://ausdroid.co/wp-content/uploads/2020/08/RoboMaster-Development-Board-Type-A-Schematic.pdf)より
-![](./docs/RoboMasteDevBoard_sch1.png)
-![](./docs/RoboMasteDevBoard_sch2.png)
 
 具体的に以下のピンを取り出します。
 |ピン名|ペリフェラル|用途|備考|
@@ -77,3 +73,8 @@ v0.1の基板上のシルクと回路図上の信号線が逆になっている�
 |1|2|
 |---|---|
 |INPUT(PC1)|GND|
+
+## 参考
+ロボマス開発ボードピンヘッダ部分のピンアサインは[回路図](https://ausdroid.co/wp-content/uploads/2020/08/RoboMaster-Development-Board-Type-A-Schematic.pdf)より
+![](./docs/RoboMasteDevBoard_sch1.png)
+![](./docs/RoboMasteDevBoard_sch2.png)
